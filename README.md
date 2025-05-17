@@ -1,6 +1,6 @@
 # ALTCHA Sentinel Deployment on Azure App Service
 
-This repository contains an Azure Resource Manager (ARM) template for deploying the ALTCHA Sentinel service on Azure App Service with persistent storage.
+This repository contains an Azure Resource Manager (ARM) template for deploying the [ALTCHA Sentinel](https://altcha.org) service on Azure App Service with persistent storage.
 
 ## Overview
 
