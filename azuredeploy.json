@@ -85,6 +85,13 @@
             "metadata": {
                 "description": "The SKU of Storage Account"
             }
+        },
+        "fileShareQuota": {
+            "type": "int",
+            "defaultValue": 10,
+            "metadata": {
+                "description": "Quota for the Azure File Share in GB"
+            }
         }
     },
     "variables": {
@@ -114,7 +121,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
             ],
             "properties": {
-                "shareQuota": 100
+                "shareQuota": "[parameters('fileShareQuota')]"
             }
         },
         {
