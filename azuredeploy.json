@@ -32,7 +32,7 @@
         },
         "dockerImage": {
             "type": "string",
-            "defaultValue": "ghcr.io/altcha-org/sentinel:1.8.1",
+            "defaultValue": "ghcr.io/altcha-org/sentinel:1.8.2",
             "metadata": {
                 "description": "The Docker image to deploy (e.g., 'username/imagename:tag') without registry host"
             }
